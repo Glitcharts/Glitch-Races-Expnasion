@@ -32,6 +32,14 @@
           "function": "glitchthings:enchantments/wallbreaker"
         }
       }
+    ],
+    "minecraft:item_damage": [
+      {
+        "effect": {
+          "type": "minecraft:remove_binomial",
+          "chance": 1
+        }
+      }
     ]
   }
 }

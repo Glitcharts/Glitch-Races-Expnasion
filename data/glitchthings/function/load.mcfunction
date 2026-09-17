@@ -65,4 +65,6 @@ scoreboard objectives add armadillo_scute_cooldown dummy "Armadillo Scute Cooldo
 
 scoreboard objectives add selected_race dummy "Selected Race"
 
+scoreboard objectives add wallbreak_cooldown dummy "Wallbreak Cooldown"
+
 tellraw @a ["",{text:"-----------------------------------------------",color:"red"},{text:"\n"},{text:"Glitch Races Datapack loaded successfully",color:"dark_purple"},{text:"\n"},{text:"If you like my datapack consider checking out my other"},{text:" work",color:"green",click_event:{action:"open_url",url:"https://modrinth.com/user/GlitchingArts"},hover_event:{action:"show_text",value:[{text:"My Modrinth page"}]}},{text:"\n"},{text:"-----------------------------------------------",color:"red"}]

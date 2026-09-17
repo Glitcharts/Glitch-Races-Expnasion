@@ -1,11 +1,17 @@
 scoreboard players add @a selected_race 0 
 
+##Enchantments
+
+scoreboard players add @a wallbreak_cooldown 0
+execute as @a if score @s wallbreak_cooldown matches 1.. run scoreboard players remove @a wallbreak_cooldown 1
+
 execute as @a if score @s selected_race matches 0 \
  run function glitchthings:selectionracefunction
 
 ##all start funcs
 
 execute as @a run function glitchthings:startingfuncs
+
 
 
 ##giving recipes

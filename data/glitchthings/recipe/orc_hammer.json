@@ -1,60 +1,63 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "category": "equipment",
-  "key": {
-    "#": "minecraft:heavy_core",
-    "I": "minecraft:mace",
-    "x": "minecraft:shield"
-  },
-  "pattern": [
-    " # ",
-    "xIx"
-  ],
-  "result": {
-    "id": "minecraft:mace",
-    "components": {
-      "minecraft:attribute_modifiers": [
-        {
-          "type": "armor",
-          "id": "minecraft:",
-          "amount": 3,
-          "operation": "add_value",
-          "slot": "mainhand"
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "key": {
+        "0": "minecraft:diamond",
+        "#": "minecraft:heavy_core",
+        "+": "minecraft:shield",
+        "*": "minecraft:mace"
+    },
+    "pattern": [
+        " # ",
+        "+*+",
+        " 0 "
+    ],
+    "result": {
+        "id": "minecraft:mace",
+        "components": {
+            "minecraft:attribute_modifiers": [
+                {
+                    "type": "armor",
+                    "id": "minecraft:",
+                    "amount": 3,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "attack_damage",
+                    "id": "minecraft:",
+                    "amount": 2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "knockback_resistance",
+                    "id": "minecraft:",
+                    "amount": 0.2,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "attack_speed",
+                    "id": "minecraft:",
+                    "amount": -2.5,
+                    "operation": "add_value",
+                    "slot": "mainhand"
+                },
+                {
+                    "type": "movement_speed",
+                    "id": "minecraft:",
+                    "amount": -0.1,
+                    "operation": "add_multiplied_base",
+                    "slot": "mainhand"
+                }
+            ],
+            "minecraft:max_damage": 4000,
+            "minecraft:custom_name": {
+                "text": "Orc's Hammer",
+                "color": "green"
+            }
         },
-        {
-          "type": "attack_damage",
-          "id": "minecraft:",
-          "amount": 2,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "knockback_resistance",
-          "id": "minecraft:",
-          "amount": 0.2,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "attack_speed",
-          "id": "minecraft:",
-          "amount": -2.5,
-          "operation": "add_value",
-          "slot": "mainhand"
-        },
-        {
-          "type": "movement_speed",
-          "id": "minecraft:",
-          "amount": -0.1,
-          "operation": "add_multiplied_base",
-          "slot": "mainhand"
-        }
-      ],
-      "max_damage": 4000,
-      "minecraft:custom_name": {
-        "text": "Orc's Hammer",
-        "color": "green"
-      }
+        "count": 1
     }
-  }
 }
