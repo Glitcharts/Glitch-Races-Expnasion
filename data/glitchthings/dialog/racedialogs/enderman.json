@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Ender Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:ender_pearl"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A mysterious race connected to the power of the End."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Endurance(35 Max Hp)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Void Movement(+50% Speed)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Powerful Strikes(+50% Damage)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Fast Attacks(+12.5% Attack Speed)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Blink Ability",
+        "color": "#9d00f8",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Couch and jump to teleport where your looking(5 second cooldown)"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Larger Target(+50% Size)",
+        "color": "#9ee7ff"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger ender"
+      }
+    },
+    {
+      "label": "Back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:classselect"
+      }
+    }
+  ]
+}

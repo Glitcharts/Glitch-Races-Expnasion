@@ -1,0 +1,45 @@
+{
+  "anvil_cost": 8,
+  "description": "Thunder Strike",
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:all_of",
+          "effects": [
+            {
+              "type": "minecraft:summon_entity",
+              "entity": "minecraft:lightning_bolt"
+            },
+            {
+              "type": "minecraft:play_sound",
+              "pitch": 1,
+              "sound": "minecraft:item.trident.thunder",
+              "volume": 5
+            }
+          ]
+        },
+        "enchanted": "attacker",
+        "requirements": {
+          "condition": "minecraft:all_of",
+          "terms": []
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "mainhand"
+  ],
+  "supported_items": "#glitchthings:thunderstrike",
+  "weight": 2
+}

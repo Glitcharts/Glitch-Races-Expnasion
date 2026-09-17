@@ -1,0 +1,33 @@
+{
+  "criteria": {
+    "Eating food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:apple",
+            "minecraft:carrot",
+            "golden_apple",
+            "enchanted_golden_apple",
+            "sweet_berries",
+            "melon_slice",
+            "beetroot",
+            "potato",
+            "baked_potato",
+            "bread",
+            "golden_carrot",
+            "glow_berries",
+            "dried_kelp",
+            "beetroot_soup",
+            "mushroom_stew",
+            "pumpkin_pie",
+            "cookie"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:races/ablities/bloom/bloom_states/add_or_remove/add_bloom"
+  }
+}

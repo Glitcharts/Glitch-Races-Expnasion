@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Huaman Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:emerald"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Basic person without any extra things"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger human"
+      }
+    },
+    {
+      "label": "Back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:classselect"
+      }
+    }
+  ]
+}

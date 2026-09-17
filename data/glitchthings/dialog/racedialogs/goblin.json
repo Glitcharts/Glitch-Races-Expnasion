@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Goblin Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:emerald"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A clever scavenger race known for speed and luck."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Quick Feet(+50% Movement Speed)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Lucky Creature(+40%uck)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Mining Talent(+20%Mining Efficiency)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Tiny Creature(-44% Size)",
+        "color": "#9ee7ff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Fragile Body(18 Max HP)",
+        "color": "#bb3e3e"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Weak Strikes(-10% Damage)",
+        "color": "#bb3e3e"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger goblin"
+      }
+    },
+    {
+      "label": "Back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:classselect"
+      }
+    }
+  ]
+}

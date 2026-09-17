@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "creeper_explosion": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": true
+          }
+        },
+        "entity": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:races/ablities/creeper/creeper_punch_random"
+  }
+}

@@ -1,0 +1,2 @@
+execute as @s[advancements={glitchthings:glitch_races_creeper=true}] at @s positioned ^ ^2 ^2 run summon minecraft:tnt ^ ^ ^ {fuse:2, explosion_power:2}
+advancement revoke @p only glitchthings:creeper_exploxe_ablity

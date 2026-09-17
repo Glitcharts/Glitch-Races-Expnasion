@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Rythmer Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:jukebox"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Music is the source of your incredible power."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Unique Music Abilities",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Random Music Disc Effects",
+        "color": "#39d553",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "When punching a creature when off of cooldown gain random effects gaining a boss theme for as long the music is playing"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Every song changes the battle",
+        "color": "#39d553"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger rythmer"
+      }
+    },
+    {
+      "label": "Back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:classselect"
+      }
+    }
+  ]
+}

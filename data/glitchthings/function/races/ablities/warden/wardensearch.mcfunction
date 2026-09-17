@@ -1,0 +1,2 @@
+execute if entity @s[advancements={glitchthings:glitch_races_warden=true}] at @s as @e[distance=0.1..15,limit=99999,type=!player,type=!#glitchthings:projectiles,type=!item_frame,type=!minecraft:glow_item_frame] run effect give @s minecraft:glowing 5 1 true
+advancement revoke @s only glitchthings:wardensearch

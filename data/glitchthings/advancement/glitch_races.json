@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:ender_eye"
+    },
+    "title": "Glitch's Races",
+    "description": "Glitch's expansion races",
+    "background": "minecraft:entity/end_portal/end_portal",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "glitchthings:species_essence"
+    ]
+  },
+  "sends_telemetry_event": true
+}

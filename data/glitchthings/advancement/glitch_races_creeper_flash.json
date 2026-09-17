@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "trigg": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "glitchthings:glitch_races_creeper",
+  "display": {
+    "description": "Hit the one and billion flash",
+    "title": "Creeper Flash..",
+    "icon": {
+      "id": "minecraft:gunpowder",
+      "components": {
+        "minecraft:enchantment_glint_override": true
+      }
+    },
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,197 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Gooby Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:slime_ball"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A strange race that can shift between three different states."
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "It seems also to be very Bouncy.",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Each state gives the Gooby different strengths and weaknesses.",
+        "color": "#39d553"
+      }
+    },
+
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "----- Manga State -----",
+        "color": "#ff711f"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Fireborn",
+        "color": "#db3333",
+        "hover_event": {
+          "action": "show_text",
+          "value": "Does not take fire damage"
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Small Body(-45% Size)",
+        "color": "#9ee7ff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Lightweight(+67% Jump Strength)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Safe Landing(+67% Fall Distance)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Weak Body(16 Max Health)",
+        "color": "#bb3e3e"
+      }
+    },
+
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "----- Slime State -----",
+        "color": "#08c421"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Large Body(+20% Size)",
+        "color": "#9ee7ff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Bouncy Body(+162% Jump Strength)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Knockback Resistance(+30%)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Tough Body(24 Max Health)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Safe Landing(+50% Fall Distance)",
+        "color": "#39d553"
+      }
+    },
+
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "----- Sulfer State -----",
+        "color": "#fffc54"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Small Body(-20% Size)",
+        "color": "#9ee7ff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Powerful Jump(+100% Jump Strength)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Hunger Reach",
+        "color": "#39d553",
+        "hover_event": {
+          "action": "show_text",
+          "value": {
+            "text": "Block Reach is 7 and Entity Reach is 6"
+          }
+        }
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Safe Landing(+67% Fall Distance)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Weak Body(18 Max Health)",
+        "color": "#bb3e3e"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Confirm",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "trigger gooby"
+      }
+    },
+    {
+      "label": "Back",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:classselect"
+      }
+    }
+  ]
+}

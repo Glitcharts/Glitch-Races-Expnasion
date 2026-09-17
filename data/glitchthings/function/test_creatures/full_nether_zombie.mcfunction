@@ -1,0 +1,1 @@
+summon zombie ~ ~ ~ {equipment:{head:{id:netherite_helmet},chest:{id:netherite_chestplate},legs:{id:netherite_leggings},feet:{id:netherite_boots}}}

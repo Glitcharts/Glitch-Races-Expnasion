@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xox",
+    "axa",
+    "xox"
+  ],
+  "key": {
+    "x": [
+      "minecraft:ender_eye",
+      "minecraft:heart_of_the_sea",
+      "minecraft:blaze_powder"
+    ],
+    "o": "minecraft:diamond",
+    "a": [
+      "minecraft:end_crystal",
+      "minecraft:conduit",
+      "minecraft:nether_star"
+    ]
+  },
+  "result": {
+    "id": "minecraft:jigsaw",
+    "components": {
+      "minecraft:item_model": "minecraft:dragon_breath",
+      "minecraft:consumable": {
+        "consume_seconds": 2,
+        "sound": "entity.axolotl.idle_water",
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:regeneration",
+                "amplifier": 2,
+                "duration": 80,
+                "ambient": false,
+                "show_particles": true,
+                "show_icon": true
+              },
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 2,
+                "duration": 80,
+                "show_particles": true,
+                "show_icon": true
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Species Essence"
+      },
+      "minecraft:custom_data": {
+        "changerace": true
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "i dont know man this shit gives me so many issues to make",
+    "min_format": [
+      101,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ]
+  }
+}

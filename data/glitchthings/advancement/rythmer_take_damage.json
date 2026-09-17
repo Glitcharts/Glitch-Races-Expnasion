@@ -1,0 +1,19 @@
+{
+  "parent": "glitchthings:glitch_races_rythmer",
+  "criteria": {
+    "take damage": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "taken": {
+            "min": 1
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:races/ablities/rythmer/rythmerhandler"
+  },
+  "sends_telemetry_event": false
+}

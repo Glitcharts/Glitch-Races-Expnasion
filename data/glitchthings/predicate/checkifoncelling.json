@@ -1,0 +1,41 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_sneaking": true
+        }
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:air",
+                  "minecraft:ladder",
+                  "minecraft:vine",
+                  "minecraft:twisting_vines",
+                  "minecraft:weeping_vines",
+                  "rail",
+                  "powered_rail",
+                  "detector_rail",
+                  "activator_rail"
+                ]
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

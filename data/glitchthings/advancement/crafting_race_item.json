@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "crafting things": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "glitchthings:species_essence"
+      }
+    }
+  },
+  "parent": "glitchthings:glitch_races",
+  "display": {
+    "icon": {
+      "id": "minecraft:dragon_breath"
+    },
+    "title": "United Essence",
+    "description": "Craft the species essence"
+  }
+}

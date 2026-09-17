@@ -1,0 +1,22 @@
+  {
+  "display": {
+    "icon": {
+      "id": "minecraft:armadillo_scute"
+    },
+    "title": "Armadillo Race",
+    "description": "Sometimes you just wanna hide in your shell",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "glitchthings:glitch_races",
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": 
+  {
+    "function": "glitchthings:races/armadillo"
+  }
+}

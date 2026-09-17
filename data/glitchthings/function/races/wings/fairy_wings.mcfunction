@@ -1,0 +1,1 @@
+give @s minecraft:elytra[custom_name=["",{"text":"fairy wings","color":"light_purple"}],enchantment_glint_override=false,enchantments={binding_curse:1,vanishing_curse:1},unbreakable={},tooltip_display={hidden_components:[enchantments]}]

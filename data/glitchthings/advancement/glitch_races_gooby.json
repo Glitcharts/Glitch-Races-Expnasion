@@ -1,0 +1,22 @@
+  {
+  "display": {
+    "icon": {
+      "id": "minecraft:slime_ball"
+    },
+    "title": "Gooby Race",
+    "description": "The goo makes you want to eat everything",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "glitchthings:glitch_races",
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": 
+  {
+    "function": "glitchthings:races/gooby"
+  }
+}

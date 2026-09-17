@@ -1,0 +1,130 @@
+{
+  "type": "minecraft:multi_action",
+  "external_title": {
+    "translate": "menu.custom_options"
+  },
+  "title": {
+    "translate": "Werewolf Race"
+  },
+  "body": [
+    {
+      "type": "minecraft:item",
+      "item": {
+        "id": "minecraft:wolf_spawn_egg"
+      },
+      "show_decorations": false,
+      "show_tooltip": false,
+      "height": 2
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "A beast race that changes depending on the moon."
+      }
+    },
+
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "----- Day Form -----",
+        "color": "#ffffff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents":{
+        "text":"Balanced Beast(24 Max HP)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Larger Body(+20% Size)",
+        "color":"#9ee7ff"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Reduced Speed(-10%)",
+        "color":"#bb3e3e"
+      }
+    },
+
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "----- Night Form -----",
+        "color": "#ffffff"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Moon Strength(30 Max HP)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Savage Power(+100% Damage)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Predator Speed(+40% Movement Speed)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Faster Attacks(+25% Attack Speed)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Powerful Jump(+17% Jump Strength)",
+        "color":"#39d553"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Wolf Senses(Night Vision)",
+        "color":"#5e41ff"
+      }
+    },
+    {
+      "type":"minecraft:plain_message",
+      "contents":{
+        "text":"Massive Form(+130% Size)",
+        "color":"#9ee7ff"
+      }
+    }
+  ],
+  "inputs": [],
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label":"Confirm",
+      "action":{
+        "type":"minecraft:run_command",
+        "command":"trigger werewolf"
+      }
+    },
+    {
+      "label":"Back",
+      "action":{
+        "type":"minecraft:show_dialog",
+        "dialog":"glitchthings:classselect"
+      }
+    }
+  ]
+}

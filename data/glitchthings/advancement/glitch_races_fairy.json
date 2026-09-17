@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:green_dye"
+    },
+    "title": "Fariy Race",
+    "description": "Fairies fly around and feel magic within them",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "glitchthings:glitch_races",
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": 
+  {
+    "function": "glitchthings:races/fairy"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:jigsaw",
+          "components": {
+            "minecraft:custom_data": {
+              "changerace": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:foods/species_essence"
+  },
+  "sends_telemetry_event": false
+}

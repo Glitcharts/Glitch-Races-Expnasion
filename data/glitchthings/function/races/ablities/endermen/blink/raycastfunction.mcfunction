@@ -1,0 +1,1 @@
+$execute at @s unless block ^ ^1 ^$(distance) #minecraft:air if score @s ender_teleport_found matches 0 run function glitchthings:races/ablities/endermen/blink/hit {distance:$(distance)}

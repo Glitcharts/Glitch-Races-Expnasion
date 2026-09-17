@@ -1,0 +1,2 @@
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:glass_bottle"}}] run give @s minecraft:honey_bottle[food={nutrition:5,saturation:8,can_always_eat:1b},consumable={consume_seconds:1.2,animation:drink,sound:"minecraft:item.honey_bottle.drink",has_consume_particles:0b,on_consume_effects:[{type:apply_effects,effects:[{id:regeneration,duration:200,amplifier:2},{id:absorption,duration:300,amplifier:2},{id:haste,duration:600,amplifier:4}]}]}] 1
+execute if entity @s[nbt={SelectedItem:{id:"minecraft:glass_bottle"}}] run clear @s minecraft:glass_bottle 1

@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "eating Mace": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:mace"
+        }
+      }
+    }
+  },
+  "parent": "glitchthings:crafting_race_item",
+  "display": {
+    "title": "Eating like a orc",
+    "description": "Eat a Flavored Mace",
+    "icon": {
+      "id": "minecraft:cake"
+    },
+    "announce_to_chat": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "using_item": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:fire_charge",
+            "minecraft:jigsaw"
+          ],
+          "components": {
+            "minecraft:custom_data": {
+              "tag": "fireball_wand"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:projectles/fireball/charing_particles"
+  }
+}

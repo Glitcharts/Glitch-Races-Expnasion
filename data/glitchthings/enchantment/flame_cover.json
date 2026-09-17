@@ -1,0 +1,33 @@
+{
+  "description": "flame cover",
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 7,
+  "max_level": 2,
+  "min_cost": {
+    "base": 3,
+    "per_level_above_first": 8
+  },
+  "max_cost": {
+    "base": 15,
+    "per_level_above_first": 8
+  },
+  "anvil_cost": 2,
+  "slots": [
+    "head",
+    "chest",
+    "legs",
+    "feet"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "minecraft:ignite",
+          "duration": 100
+        },
+        "enchanted": "victim",
+        "affected": "attacker"
+      }
+    ]
+  }
+}

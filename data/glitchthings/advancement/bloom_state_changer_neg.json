@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "Eating food": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cooked_beef",
+            "minecraft:cooked_cod",
+            "cooked_chicken",
+            "cooked_mutton",
+            "cooked_porkchop",
+            "cooked_rabbit",
+            "cooked_salmon",
+            "pufferfish",
+            "beef",
+            "cod",
+            "porkchop",
+            "mutton",
+            "chicken",
+            "rabbit",
+            "salmon",
+            "tropical_fish",
+            "rabbit_stew",
+            "rotten_flesh"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:races/ablities/bloom/bloom_states/add_or_remove/remove_bloom"
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Race Selection",
+  "can_close_with_escape": false,
+  "actions": [
+    {
+      "label": "Human",
+      "tooltip": "A balanced race with no strengths or weaknesses.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/human"
+      }
+    },
+    {
+      "label": "Orc",
+      "tooltip": "Massive warriors with incredible strength and endurance.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/orc"
+      }
+    },
+    {
+      "label": "Elf",
+      "tooltip": "Graceful forest dwellers with unmatched agility.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/elf"
+      }
+    },
+    {
+      "label": "Mole",
+      "tooltip": "Expert tunnelers who carve paths through the earth.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/mole"
+      }
+    },
+    {
+      "label": "Soul Knight",
+      "tooltip": "Ancient warriors empowered by the souls of fallen heroes.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/soul_knight"
+      }
+    },
+    {
+      "label": "Blaze Spawn",
+      "tooltip": "Masters of flame that dominate fire but struggle with water.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/blazespawn"
+      }
+    },
+    {
+      "label": "Feilene",
+      "tooltip": "Curious feline creatures with unmatched agility.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/feilene"
+      }
+    },
+    {
+      "label": "Kraken",
+      "tooltip": "Ancient rulers of the deep with unmatched power in water.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/kraken"
+      }
+    },
+    {
+      "label": "Creeper",
+      "tooltip": "Living explosives that channel devastating blasts through their fists.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/creeper"
+      }
+    },
+    {
+      "label": "Bloom",
+      "tooltip": "Mystical beings that grow alongside nature itself.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/bloom"
+      }
+    },
+    {
+      "label": "Fairy",
+      "tooltip": "Tiny magical creatures blessed with permanent flight.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/fairy"
+      }
+    },
+    {
+      "label": "Spider",
+      "tooltip": "Silent hunters capable of climbing walls and leaping great distances.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/spider"
+      }
+    },
+    {
+      "label": "Goblin",
+      "tooltip": "Greedy scavengers blessed with luck and quick reflexes.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/goblin"
+      }
+    },
+    {
+      "label": "Honey Bee",
+      "tooltip": "Hardworking fliers that protect the hive and gather nature's bounty.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/honey_bee"
+      }
+    },
+    {
+      "label": "Enderman",
+      "tooltip": "Mysterious beings who command teleportation and the power of the End.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/enderman"
+      }
+    },
+    {
+      "label": "Rythmer",
+      "tooltip": "Music flows through your body, empowering unique abilities.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/rythmer"
+      }
+    },
+    {
+      "label": "Warden",
+      "tooltip": "Colossal guardians of the Deep Dark with unmatched resilience.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/warden"
+      }
+    },
+    {
+      "label": "Werewolf",
+      "tooltip": "Cursed beasts that unleash their true power beneath the moon.",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/werewolf"
+      }
+    },
+    {
+      "label": "Gooby",
+      "tooltip": "gooby things",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/gooby"
+      }
+    },
+    {
+      "label": "Armadillo",
+      "tooltip": "Loving to hide and be curious",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "glitchthings:racedialogs/aramdillo"
+      }
+    }
+  ]
+}

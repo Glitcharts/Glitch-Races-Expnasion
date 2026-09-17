@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "title": "Human Race",
+    "description": "Basic person but you can respect that",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false
+  },
+  "parent": "glitchthings:glitch_races",
+  "criteria": {
+    "Trigger": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": 
+  {
+    "function": "glitchthings:races/human"
+  }
+}
