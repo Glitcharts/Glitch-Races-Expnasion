@@ -4,11 +4,19 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "flags": {
-            "is_sneaking": true
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:flags": {
+              "is_sneaking": true
+            }
           }
         },
-        "entity": {}
+        "entity": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {}
+        }
       }
     }
   },

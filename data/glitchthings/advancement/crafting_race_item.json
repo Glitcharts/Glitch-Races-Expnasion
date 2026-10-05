@@ -3,7 +3,7 @@
     "crafting things": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe_id": "glitchthings:species_essence"
+        "recipes": "glitchthings:species_essence"
       }
     }
   },
