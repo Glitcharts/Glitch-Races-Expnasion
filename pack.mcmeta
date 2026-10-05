@@ -1,13 +1,16 @@
 {
-  "pack": {
-    "description": "i dont know man this shit gives me so many issues to make",
-    "min_format": [
-      101,
-      1
-    ],
-    "max_format": [
-      107,
-      1
-    ]
-  }
+    "pack": {
+        "description": "i dont know man this shit gives me so many issues to make",
+        "min_format": [
+            101,
+            1
+        ],
+        "max_format": [
+            107,
+            1
+        ]
+    },
+    "version": "1.0.3",
+    "modrinth_project_id": "",
+    "required_resourcepack": "nights at crafty RP"
 }

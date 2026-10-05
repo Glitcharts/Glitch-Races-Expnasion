@@ -39,13 +39,6 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Ocean Movement(+20% Speed)",
-        "color": "#39d553"
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
         "text": "Natural Luck(+30% Luck)",
         "color": "#39d553"
       }
@@ -55,6 +48,13 @@
       "contents": {
         "text": "Large Creature(+50% Size)",
         "color": "#9ee7ff"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
+        "text": "Ocean Based Life(-10% Speed)",
+        "color": "#bb3e3e"
       }
     }
   ],
