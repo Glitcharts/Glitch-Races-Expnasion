@@ -1,0 +1,61 @@
+{
+  "attributes": {
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:soul"
+        },
+        "probability": 0.003
+      },
+      {
+        "particle": {
+          "type": "minecraft:sculk_soul"
+        },
+        "probability": 0.001
+      }
+    ],
+    "visual/sky_color": "#64161e",
+    "gameplay/natural_mob_spawns": {
+      "modifier": "overlay",
+      "argument": {
+        "spawns_by_category": {
+          "monster": [
+            {
+              "type": "wither_skeleton",
+              "count": 1,
+              "weight": 4
+            },
+            {
+              "type": "skeleton",
+              "count": {
+                "type": "uniform",
+                "min_inclusive": 1,
+                "max_inclusive": 2
+              },
+              "weight": 6
+            },
+            {
+              "type": "skeleton_horse",
+              "count": 1,
+              "weight": 10
+            }
+          ]
+        },
+        "spawn_costs": {}
+      }
+    }
+  },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "water_color": 10605273,
+    "grass_color": 4404259,
+    "foliage_color": 9535342,
+    "dry_foliage_color": 8023644,
+    "grass_color_modifier": "none"
+  },
+  "carvers": [],
+  "features": []
+}

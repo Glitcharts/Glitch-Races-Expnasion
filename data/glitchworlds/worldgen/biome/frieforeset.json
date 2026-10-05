@@ -1,0 +1,62 @@
+{
+    "attributes": {
+        "visual/ambient_particles": [
+            {
+                "particle": {
+                    "type": "glow"
+                },
+                "probability": 0.001
+            },
+            {
+                "particle": {
+                    "type": "glow_squid_ink"
+                },
+                "probability": 0.0005
+            }
+        ],
+        "visual/sky_color": "#97f57a",
+        "gameplay/natural_mob_spawns": {
+            "modifier":"overlay",
+            "argument": {
+                "spawns_by_category": {
+                    "misc": [
+                        {
+                            "type": "allay",
+                            "count": {
+                                "type": "uniform",
+                                "min_inclusive": 1,
+                                "max_inclusive": 3
+                            },
+                            "weight": 10
+                        }
+                    ],
+                    "monster": [
+                        {
+                            "type": "skeleton",
+                            "count": {
+                                "type": "uniform",
+                                "min_inclusive": 1,
+                                "max_inclusive": 2
+                            },
+                            "weight": 1
+                        }
+                    ]
+                },
+                "spawn_costs": {}
+            }
+        }
+    },
+  "temperature": 0,
+  "downfall": 0,
+  "has_precipitation": false,
+  "temperature_modifier": "none",
+  "effects": {
+    "water_color": 10605273,
+    "grass_color": 5757853,
+    "foliage_color": 5307245,
+    "dry_foliage_color": 3317612,
+    "grass_color_modifier": "none"
+  },
+  "carvers": [],
+  "features": []
+}
