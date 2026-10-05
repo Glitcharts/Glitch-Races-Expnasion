@@ -4,21 +4,16 @@
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
         "player": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "minecraft:flags": {
-              "is_sneaking": true
+            "type": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
             }
           }
-        },
-        "entity": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {}
         }
       }
-    }
   },
   "rewards": {
     "function": "glitchthings:races/ablities/creeper/creeper_punch_random"

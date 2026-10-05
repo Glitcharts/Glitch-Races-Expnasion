@@ -1,6 +1,6 @@
 
-attribute @s armor base set 3
-attribute @s minecraft:movement_speed base set 0.098
+attribute @s armor base set 6
+attribute @s minecraft:movement_speed base set 0.13
 attribute @s minecraft:attack_damage base set 1.5
 attribute @s minecraft:attack_speed base set 9
 attribute @s minecraft:max_health base set 25

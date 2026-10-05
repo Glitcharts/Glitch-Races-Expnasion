@@ -12,22 +12,22 @@
     },
     {
       "type": "minecraft:location_check",
-      "offsetY": 1,
-      "predicate": {
-        "block": {
-          "blocks": [
-            "minecraft:air",
-            "minecraft:ladder",
-            "minecraft:vine",
-            "minecraft:twisting_vines",
-            "minecraft:weeping_vines",
-            "rail",
-            "powered_rail",
-            "detector_rail",
-            "activator_rail"
-          ]
+        "offsetY": 1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:air",
+              "minecraft:ladder",
+              "minecraft:vine",
+              "minecraft:twisting_vines",
+              "minecraft:weeping_vines",
+              "rail",
+              "powered_rail",
+              "detector_rail",
+              "activator_rail"
+            ]
+          }
         }
-      }
     }
   ]
 }

@@ -25,7 +25,7 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
-        "text": "Heavy Armor(+3 Armor)",
+        "text": "Heavy Armor(+6 Armor)",
         "color": "#39d553"
       }
     },
@@ -60,6 +60,13 @@
     {
       "type": "minecraft:plain_message",
       "contents": {
+        "text": "Fast Warrior(33% faster movement)",
+        "color": "#39d553"
+      }
+    },
+    {
+      "type": "minecraft:plain_message",
+      "contents": {
         "text": "Natural Warrior(+50% sweeping ratio)",
         "color": "#39d553"
       }
@@ -69,13 +76,6 @@
       "contents": {
         "text": "Large Body(+45% Size)",
         "color": "#9ee7ff"
-      }
-    },
-    {
-      "type": "minecraft:plain_message",
-      "contents": {
-        "text": "Heavy Gear(12% slower movement)",
-        "color": "#bb3e3e"
       }
     }
   ],

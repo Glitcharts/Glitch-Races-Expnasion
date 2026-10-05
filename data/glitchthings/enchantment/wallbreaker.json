@@ -19,25 +19,17 @@
     "minecraft:hit_block": [
       {
         "requirements": {
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "flags": {
-              "is_sneaking": false
+              "is_sneaking": true
             }
-          },
-          "type": "minecraft:entity_properties"
+          }
         },
         "effect": {
           "type": "minecraft:run_function",
           "function": "glitchthings:enchantments/wallbreaker"
-        }
-      }
-    ],
-    "minecraft:item_damage": [
-      {
-        "effect": {
-          "type": "minecraft:remove_binomial",
-          "chance": 1
         }
       }
     ]

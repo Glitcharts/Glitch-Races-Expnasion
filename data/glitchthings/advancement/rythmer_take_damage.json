@@ -14,6 +14,5 @@
   },
   "rewards": {
     "function": "glitchthings:races/ablities/rythmer/rythmerhandler"
-  },
-  "sends_telemetry_event": false
+  }
 }

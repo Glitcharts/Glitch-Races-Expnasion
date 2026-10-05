@@ -5,7 +5,7 @@
     },
     "title": "Glitch's Races",
     "description": "Glitch's expansion races",
-    "background": "minecraft:entity/end_portal/end_portal",
+    "background": "minecraft:block/oak_shelf",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true

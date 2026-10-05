@@ -22,9 +22,8 @@
         },
         "enchanted": "attacker",
         "requirements": {
-          "type": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {}
+          "type": "minecraft:all_of",
+          "terms": []
         }
       }
     ]

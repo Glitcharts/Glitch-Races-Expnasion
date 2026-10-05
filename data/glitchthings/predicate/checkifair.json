@@ -1,8 +1,8 @@
 {
-  "type": "minecraft:location_check",
-  "predicate": {
-    "block": {
-      "blocks": "#air"
+    "type": "minecraft:location_check",
+    "predicate": {
+        "block": {
+            "blocks": "#air"
+        }
     }
-  }
 }

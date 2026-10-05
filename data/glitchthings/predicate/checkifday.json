@@ -2,22 +2,22 @@
   "type": "minecraft:any_of",
   "terms": [
     {
+      "type": "minecraft:time_check",
       "clock": "minecraft:overworld",
       "value": {
         "min": 0,
         "max": 12000
       },
-      "period": 24000,
-      "type": "minecraft:time_check"
+      "period": 24000
     },
     {
+      "type": "minecraft:time_check",
       "clock": "minecraft:overworld",
       "value": {
         "min": 23401,
         "max": 24000
       },
-      "period": 24000,
-      "type": "minecraft:time_check"
+      "period": 24000
     }
   ]
 }
