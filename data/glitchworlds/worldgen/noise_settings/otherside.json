@@ -103,7 +103,63 @@
   "default_fluid": "minecraft:water",
   "disable_mob_generation": false,
   "legacy_random_source": false,
-  "material_rule": "minecraft:overworld",
+  "material_rule": {
+    "type": "sequence",
+    "sequence": [
+      {
+        "type": "sequence",
+        "sequence": [
+          {
+            "type": "condition",
+            "if_true": {
+              "type": "biome",
+              "biome_is": "glitchworlds:soul_ocean"
+            },
+            "then_run": {
+              "type": "condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "secondary_depth_range": 2
+              },
+              "then_run": {
+                "type": "block",
+                "result_state": {
+                  "id": "soul_sand"
+                }
+              }
+            }
+          },
+          {
+            "type": "condition",
+            "if_true": {
+              "type": "biome",
+              "biome_is": "glitchworlds:soul_ocean"
+            },
+            "then_run": {
+              "type": "condition",
+              "if_true": {
+                "type": "minecraft:stone_depth",
+                "offset": 0,
+                "surface_type": "floor",
+                "add_surface_depth": false,
+                "secondary_depth_range": 0
+              },
+              "then_run": {
+                "type": "block",
+                "result_state": {
+                  "id": "water"
+                }
+              }
+            }
+          }
+
+        ]
+      }
+    ]
+  },
   "noise": {
     "height": 400,
     "min_y": -64
