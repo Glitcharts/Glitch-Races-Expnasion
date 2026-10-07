@@ -1,5 +1,5 @@
 {
-  "type": "glitchworlds:otherside",
+  "type": "minecraft:overworld",
   "generator": {
     "type": "minecraft:noise",
     "settings": "glitchworlds:otherside",
@@ -7,27 +7,39 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "glitchworlds:frieforeset",
+          "biome": "glitchworlds:soul_ocean",
           "parameters": {
-            "temperature": 1,
-            "humidity": 1,
-            "continentalness": [-0.3,1.5],
-            "erosion": 0.5,
-            "weirdness": 1,
-            "depth": [0.5,1],
-            "offset": 0.2
+            "temperature": [-2.0, 2.0],
+            "humidity": [-2.0, 2.0],
+            "continentalness": [-2.0, -0.1],
+            "erosion": [-2.0, 2.0],
+            "weirdness": [-2.0, 2.0],
+            "depth": [-2.0, 2.0],
+            "offset": 0.0
           }
         },
         {
-          "biome": "glitchworlds:soul_ocean",
+          "biome": "glitchworlds:frieforeset",
           "parameters": {
-            "temperature": 0.5,
-            "humidity": 0.2,
-            "continentalness": [-1.6,-0.5],
-            "erosion": 0.3,
-            "weirdness": 0,
-            "depth": [-0.5,0.3],
-            "offset": 0.3
+            "temperature": [-2.0, 2.0],
+            "humidity": [-2.0, 0.0],
+            "continentalness": [-0.1, 2.0],
+            "erosion": [-2.0, 2.0],
+            "weirdness": [-2.0, 2.0],
+            "depth": [-2.0, 2.0],
+            "offset": 0.0
+          }
+        },
+        {
+          "biome": "glitchworlds:sculk_overrun",
+          "parameters": {
+            "temperature": [-2.0, 2.0],
+            "humidity": [0.0, 2.0],
+            "continentalness": [-0.1, 2.0],
+            "erosion": [-2.0, 2.0],
+            "weirdness": [-2.0, 2.0],
+            "depth": [-2.0, 2.0],
+            "offset": 0.0
           }
         }
       ]

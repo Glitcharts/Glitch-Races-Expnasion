@@ -1,0 +1,21 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.5,
+  "downfall": 0.0,
+  "effects": {
+    "water_color": "#0a3a4a",
+    "grass_color": "#0b6a73",
+    "foliage_color": "#0e8a8c"
+  },
+  "attributes": {
+    "minecraft:visual/sky_color": "#02121a",
+    "minecraft:visual/fog_color": "#031c26",
+    "minecraft:visual/water_fog_color": "#021820"
+  },
+  "carvers": ["minecraft:cave", "minecraft:canyon"],
+  "features": [
+    [], [], [], [], [], [], [], [], [],
+    ["minecraft:sculk_vein", "minecraft:sculk_patch_deep_dark"],
+    []
+  ]
+}
