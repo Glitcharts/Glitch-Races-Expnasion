@@ -1,0 +1,76 @@
+{
+  "type": "minecraft:tree",
+  "minimum_size": {
+    "type": "minecraft:three_layers_feature_size",
+    "min_clipped_height": 4,
+    "limit": 7,
+    "upper_limit": 10,
+    "lower_size": 0,
+    "middle_size": 1,
+    "upper_size": 1
+  },
+  "below_trunk_provider": {
+    "id": "minecraft:sculk_catalyst"
+  },
+  "trunk_provider": {
+    "id": "minecraft:sculk_catalyst"
+  },
+  "foliage_provider": {
+    "type": "minecraft:simple",
+    "state": "minecraft:sculk"
+  },
+  "trunk_placer": {
+    "type": "minecraft:poplar_trunk_placer",
+    "base_height": 3,
+    "height_rand_a": 6,
+    "height_rand_b": 3,
+    "trunk_height_above_branches": {
+      "type": "uniform",
+      "min_inclusive": 2,
+      "max_inclusive": 3
+    },
+    "branch_amount": {
+      "type": "uniform",
+      "min_inclusive": 1,
+      "max_inclusive": 4
+    }
+  },
+  "foliage_placer": {
+    "type": "minecraft:cherry_foliage_placer",
+    "radius": 4,
+    "offset": 3,
+    "height": 4,
+    "wide_bottom_layer_hole_chance": 0.2,
+    "corner_hole_chance": 0.4,
+    "hanging_leaves_chance": 0.2,
+    "hanging_leaves_extension_chance": 0.7
+  },
+  "decorators": [
+    {
+      "type": "minecraft:attached_to_leaves",
+      "probability": 0.3,
+      "exclusion_radius_xz": 2,
+      "exclusion_radius_y": 1,
+      "required_empty_blocks": 1,
+      "block_provider": {
+        "id": "minecraft:sculk_sensor"
+      },
+      "directions": [
+        "up"
+      ]
+    },
+    {
+      "type": "minecraft:attached_to_leaves",
+      "probability": 0.3,
+      "exclusion_radius_xz": 2,
+      "exclusion_radius_y": 1,
+      "required_empty_blocks": 1,
+      "block_provider": {
+        "id": "minecraft:sculk_shrieker"
+      },
+      "directions": [
+        "up"
+      ]
+    }
+  ]
+}

@@ -18,7 +18,104 @@
         },
         "probability": 0.0018
       }
-    ]
+    ],
+    "minecraft:gameplay/natural_mob_spawns": {
+      "spawn_costs": {},
+      "spawns_by_category": {
+        "ambient": [
+          {
+            "type": "allay",
+            "count": 1,
+            "weight": 2
+          },
+          {
+            "type": "sheep",
+            "count": 1,
+            "weight": 10
+          },
+          {
+            "type": "cow",
+            "count": 1,
+            "weight": 10
+          },
+          {
+            "type": "skeleton_horse",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            },
+            "weight": 1
+          },
+          {
+            "type": "breeze",
+            "count": 1,
+            "weight": 3
+          }
+        ],
+        "creature": [
+          {
+            "type": "illusioner",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            },
+            "weight": 20
+          }
+        ],
+        "monster": [
+          {
+            "type": "illusioner",
+            "weight": 80,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            } 
+          },
+          {
+            "type": "skeleton",
+            "count": {
+              "type": "uniform",
+              "max_inclusive": 2,
+              "min_inclusive": 1
+            },
+            "weight": 100
+          },
+          {
+            "type": "warden",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            },
+            "weight": 1
+          }
+        ],
+        "water_ambient": [
+          {
+            "type": "glow_squid",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 5
+            },
+            "weight": 10
+          },
+          {
+            "type": "nautilus",
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 0,
+              "max_inclusive": 1
+            },
+            "weight": 5
+          }
+        ]
+      }
+      
+    }
   },
   "carvers": [
     "minecraft:cave",
@@ -35,8 +132,7 @@
     [],
     [],
     [
-      "glitchworlds:frietree",
-      "minecraft:fallen_poplar_tree"
+      "glitchworlds:frietree","glitchworlds:friesculktree"
     ],
     []
   ]

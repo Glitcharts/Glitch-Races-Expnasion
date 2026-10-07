@@ -10,12 +10,41 @@
   "attributes": {
     "minecraft:visual/sky_color": "#02121a",
     "minecraft:visual/fog_color": "#031c26",
-    "minecraft:visual/water_fog_color": "#021820"
+    "minecraft:visual/water_fog_color": "#021820",
+    "gameplay/natural_mob_spawns": {
+      "argument": {
+        "spawns_by_category": {
+          "ambient": [
+            {
+              "type": "enderman",
+              "count": 1,
+              "weight": 1
+            },
+            {
+              "type": "bat",
+              "count": {
+                "type": "uniform",
+                "max_inclusive": 4,
+                "min_inclusive": 1
+              },
+              "weight": 20
+            },
+            {
+              "type": "warden",
+              "count": 1,
+              "weight": 1
+            }
+          ]
+        },
+        "spawn_costs": {}
+      },
+      "modifier": "overlay"
+    }
   },
   "carvers": ["minecraft:cave", "minecraft:canyon"],
   "features": [
     [], [], [], [], [], [], [], [], [],
-    ["minecraft:sculk_vein", "minecraft:sculk_patch_deep_dark"],
+    ["minecraft:sculk_vein", "minecraft:sculk_patch_deep_dark", "sculk_patch_ancient_city", "glitchworlds:overrunsculktree"],
     []
   ]
 }
