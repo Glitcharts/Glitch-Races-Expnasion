@@ -1,10 +1,9 @@
 {
   "sea_level": 62,
   "disable_mob_generation": false,
-  "aquifers_enabled": false,
   "legacy_random_source": false,
   "default_block": {
-    "id": "minecraft:grass_block"
+    "id": "minecraft:deepslate"
   },
   "default_fluid": {
     "id": "minecraft:water",
@@ -17,10 +16,6 @@
     "height": 384
   },
   "noise_router": {
-    "barrier": 0,
-    "fluid_level_floodedness": 0,
-    "fluid_level_spread": 0,
-    "lava": 0,
     "temperature": {
       "type": "minecraft:noise",
       "noise": "minecraft:temperature",
@@ -105,10 +100,7 @@
       },
       "cell_size_xz": 4,
       "cell_size_y": 8
-    },
-    "vein_toggle": 0,
-    "vein_ridged": 0,
-    "vein_gap": 0
+    }
   },
   "spawn_target": [],
   "material_rule": {
