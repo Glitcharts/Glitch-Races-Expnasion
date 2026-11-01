@@ -1,0 +1,6 @@
+{
+  "comparator_output": 7,
+  "description": { "text": "Glitch - Hide and Seek (cover)" },
+  "length_in_seconds": 153.0,
+  "sound_event": { "sound_id": "minecraft:hideandseek_cover", "range": 32.0 }
+}

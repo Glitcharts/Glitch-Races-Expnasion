@@ -1,0 +1,1 @@
+give @s minecraft:music_disc_tears[minecraft:jukebox_playable="glitchthings:hideandseek",minecraft:custom_model_data={strings:["resttime"]},minecraft:item_name="Glitch - Hide and Seek (cover)"]
