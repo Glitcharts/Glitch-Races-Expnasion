@@ -28,7 +28,10 @@
                     }
                 ]
             },
-            "minecraft:custom_name": "Flavored Mace"
+            "minecraft:custom_name": "Flavored Mace",
+            "custom_model_data": {
+                "strings": ["flavored_mace"]
+            }
         }
     }
 }

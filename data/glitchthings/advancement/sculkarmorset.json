@@ -1,0 +1,65 @@
+{
+  "parent": "glitchthings:crafting_race_item",
+  "display": {
+    "icon": {
+      "id": "minecraft:netherite_chestplate"
+    },
+    "title": {
+      "text": "Silent Guardian"
+    },
+    "description": {
+      "text": "Wear the full set of Sculk Armor"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wearing_full_sculk_set": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "minecraft:equipment": {
+              "head": {
+                "items": "minecraft:netherite_helmet",
+                "components": {
+                  "minecraft:custom_data": {
+                    "sculk_armor": true
+                  }
+                }
+              },
+              "chest": {
+                "items": "minecraft:netherite_chestplate",
+                "components": {
+                  "minecraft:custom_data": {
+                    "sculk_armor": true
+                  }
+                }
+              },
+              "legs": {
+                "items": "minecraft:netherite_leggings",
+                "components": {
+                  "minecraft:custom_data": {
+                    "sculk_armor": true
+                  }
+                }
+              },
+              "feet": {
+                "items": "minecraft:netherite_boots",
+                "components": {
+                  "minecraft:custom_data": {
+                    "sculk_armor": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

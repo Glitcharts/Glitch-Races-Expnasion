@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_helmet",
+  "addition": "minecraft:echo_shard",
+  "template": "minecraft:silence_armor_trim_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_helmet",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Sculk Helmet",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "sculk_armor": true
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "amount": 3,
+          "slot": "head",
+          "id": "glitchthings:sculk_helmet_armor",
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "amount": 2,
+          "slot": "head",
+          "id": "glitchthings:sculk_helmet_armor_toughness",
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.05,
+          "slot": "head",
+          "id": "glitchthings:sculk_helmet_knockback_resistance",
+          "operation": "add_value"
+        }
+      ],
+      "rarity": "rare"
+    }
+  }
+}

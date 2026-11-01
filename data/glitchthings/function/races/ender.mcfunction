@@ -2,6 +2,7 @@ attribute @s minecraft:movement_speed base set 0.15
 attribute @s minecraft:attack_damage base set 1.5
 attribute @s minecraft:attack_speed base set 4.5
 attribute @s minecraft:max_health base set 35
+attribute @s minecraft:entity_interaction_range base set 7
 attribute @s minecraft:scale base set 1.5
 
 scoreboard players set @s ender_teleport_cooldown 0

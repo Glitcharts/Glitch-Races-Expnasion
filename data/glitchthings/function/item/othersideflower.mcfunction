@@ -1,0 +1,1 @@
+give @s minecraft:jigsaw[custom_name="Otherside Flower", item_model="minecraft:golden_dandelion", enchantment_glint_override=true, custom_data={othersidetool:true}, max_stack_size=1, consumable={consume_seconds:99999999, animation:"none", has_consume_particles:true},rarity="epic"] 1

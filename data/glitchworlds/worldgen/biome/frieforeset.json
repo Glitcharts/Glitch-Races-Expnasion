@@ -20,101 +20,124 @@
       }
     ],
     "minecraft:gameplay/natural_mob_spawns": {
-      "spawn_costs": {},
+      "spawn_costs": {
+        "minecraft:warden": {
+          "charge": 0.1,
+          "energy_budget": 0.5
+        },
+        "minecraft:illusioner": {
+          "charge": 0.1,
+          "energy_budget": 0.5
+        },
+        "minecraft:skeleton": {
+          "charge": 0.1,
+          "energy_budget": 0.5
+        }
+      },
       "spawns_by_category": {
-        "ambient": [
-          {
-            "type": "allay",
-            "count": 1,
-            "weight": 2
-          },
-          {
-            "type": "sheep",
-            "count": 1,
-            "weight": 10
-          },
-          {
-            "type": "cow",
-            "count": 1,
-            "weight": 10
-          },
-          {
-            "type": "skeleton_horse",
-            "count": {
-              "type": "uniform",
-              "min_inclusive": 0,
-              "max_inclusive": 1
-            },
-            "weight": 1
-          },
-          {
-            "type": "breeze",
-            "count": 1,
-            "weight": 3
-          }
-        ],
+        "ambient": [],
         "creature": [
           {
-            "type": "illusioner",
+            "type": "minecraft:allay",
+            "weight": 20,
             "count": {
               "type": "uniform",
               "min_inclusive": 1,
-              "max_inclusive": 2
-            },
-            "weight": 20
+              "max_inclusive": 1
+            }
+          },
+          {
+            "type": "minecraft:sheep",
+            "weight": 10,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
+          },
+          {
+            "type": "minecraft:cow",
+            "weight": 10,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
+          },
+          {
+            "type": "minecraft:skeleton_horse",
+            "weight": 1,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
           }
         ],
         "monster": [
           {
-            "type": "illusioner",
+            "type": "minecraft:illusioner",
             "weight": 80,
             "count": {
               "type": "uniform",
               "min_inclusive": 1,
               "max_inclusive": 2
-            } 
+            }
           },
           {
-            "type": "skeleton",
+            "type": "minecraft:skeleton",
+            "weight": 100,
             "count": {
               "type": "uniform",
-              "max_inclusive": 2,
-              "min_inclusive": 1
-            },
-            "weight": 100
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
           },
           {
-            "type": "warden",
+            "type": "minecraft:breeze",
+            "weight": 3,
             "count": {
               "type": "uniform",
-              "min_inclusive": 0,
+              "min_inclusive": 1,
               "max_inclusive": 1
-            },
-            "weight": 1
+            }
+          },
+          {
+            "type": "minecraft:warden",
+            "weight": 1,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
           }
         ],
-        "water_ambient": [
+        "water_ambient": [],
+        "water_creature": [
           {
-            "type": "glow_squid",
+            "type": "minecraft:nautilus",
+            "weight": 5,
             "count": {
               "type": "uniform",
-              "min_inclusive": 2,
-              "max_inclusive": 5
-            },
-            "weight": 10
-          },
-          {
-            "type": "nautilus",
-            "count": {
-              "type": "uniform",
-              "min_inclusive": 0,
+              "min_inclusive": 1,
               "max_inclusive": 1
-            },
-            "weight": 5
+            }
           }
-        ]
+        ],
+        "underground_water_creature": [
+          {
+            "type": "minecraft:glow_squid",
+            "weight": 10,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 3
+            }
+          }
+        ],
+        "misc": [],
+        "axolotls": []
       }
-      
     }
   },
   "carvers": [
@@ -132,7 +155,8 @@
     [],
     [],
     [
-      "glitchworlds:frietree","glitchworlds:friesculktree"
+      "glitchworlds:frietree",
+      "glitchworlds:friesculktree"
     ],
     []
   ]

@@ -1,0 +1,1 @@
+give @s minecraft:music_disc_tears[minecraft:jukebox_playable="glitchthings:resttime",minecraft:custom_model_data={strings:["resttime"]}]

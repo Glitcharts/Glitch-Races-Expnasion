@@ -1,0 +1,51 @@
+{
+  "feature": {
+    "type": "minecraft:ore",
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:netherrack"
+        },
+        "state": {
+          "id": "minecraft:blackstone"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:resin_block"
+        },
+        "state": {
+          "id": "minecraft:blackstone"
+        }
+      }
+    ],
+    "size": 40,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 43
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 6
+        },
+        "max_inclusive": {
+          "below_top": 3
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

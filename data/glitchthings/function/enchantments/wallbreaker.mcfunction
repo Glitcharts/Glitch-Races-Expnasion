@@ -1,1 +1,2 @@
 fill ~1 ~2 ~1 ~-1 ~-1 ~-1 air destroy
+execute if items entity @s weapon.mainhand *[minecraft:custom_model_data={strings:["mole_digger"]}] run item modify entity @s weapon.mainhand glitchthings:damage_mole_digger

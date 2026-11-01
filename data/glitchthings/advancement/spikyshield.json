@@ -1,0 +1,66 @@
+{
+  "criteria": {
+    "blocked_mainhand": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "mainhand": {
+                "items": "minecraft:shield",
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "glitchthings:spiky"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    },
+    "blocked_offhand": {
+      "conditions": {
+        "player": {
+          "type": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "equipment": {
+              "offhand": {
+                "items": "minecraft:shield",
+                "predicates": {
+                  "minecraft:enchantments": [
+                    {
+                      "enchantments": "glitchthings:spiky"
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "damage": {
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "requirements": [
+    [
+      "blocked_mainhand",
+      "blocked_offhand"
+    ]
+  ],
+  "rewards": {
+    "function": "glitchthings:enchantments/spikydamage"
+  },
+  "sends_telemetry_event": false
+}

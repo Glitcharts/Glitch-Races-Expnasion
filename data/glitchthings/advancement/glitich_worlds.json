@@ -1,0 +1,16 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:golden_dandelion"
+    },
+    "title": "Glitch Worlds",
+    "description": "The start of finding the other worlds",
+    "frame": "goal",
+    "background": "minecraft:block/nether_portal"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

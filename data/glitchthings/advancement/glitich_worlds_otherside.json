@@ -1,0 +1,26 @@
+{
+  "parent": "glitchthings:glitich_worlds",
+  "display": {
+    "icon": {
+      "id": "minecraft:sea_lantern"
+    },
+    "title": "The Otherside",
+    "description": "The start but worrying jounery",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type": "minecraft:location_check",
+          "predicate": {
+            "dimension": "glitchworlds:otherside"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {}
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:smithing_transform",
+  "base": "minecraft:diamond_boots",
+  "addition": "minecraft:echo_shard",
+  "template": "minecraft:silence_armor_trim_smithing_template",
+  "result": {
+    "id": "minecraft:netherite_boots",
+    "count": 1,
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Sculk Boots",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "sculk_armor": true
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "amount": 3,
+          "slot": "feet",
+          "id": "glitchthings:sculk_boots_armor",
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "amount": 1,
+          "slot": "feet",
+          "id": "glitchthings:sculk_boots_armor_toughness",
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.05,
+          "slot": "feet",
+          "id": "glitchthings:sculk_boots_knockback_resistance",
+          "operation": "add_value"
+        },
+        {
+          "type": "minecraft:sneaking_speed",
+          "amount": 0.1,
+          "slot": "feet",
+          "id": "glitchthings:sculk_boots_sneaking_speed",
+          "operation": "add_value"
+        }
+      ],
+      "rarity": "rare"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": "minecraft:netherite_ingot",
+  "base": "minecraft:elytra",
+  "result": {
+    "id": "minecraft:elytra",
+    "components": {
+      "minecraft:custom_name": {
+        "text": "Netherite Wings",
+        "italic": false
+      },
+      "minecraft:attribute_modifiers": [
+        {
+          "type": "minecraft:armor",
+          "amount": 5,
+          "slot": "body",
+          "operation": "add_value",
+          "id": "1792593164179"
+        },
+        {
+          "type": "minecraft:armor_toughness",
+          "amount": 2,
+          "slot": "body",
+          "operation": "add_value",
+          "id": "1792593164180"
+        },
+        {
+          "type": "minecraft:knockback_resistance",
+          "amount": 0.1,
+          "slot": "body",
+          "operation": "add_value",
+          "id": "1792593164181"
+        }
+      ]
+    }
+  },
+  "template": "minecraft:netherite_upgrade_smithing_template"
+}

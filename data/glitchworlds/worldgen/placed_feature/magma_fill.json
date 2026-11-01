@@ -1,0 +1,42 @@
+{
+  "feature": {
+    "type": "minecraft:ore",
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:netherrack"
+        },
+        "state": {
+          "id": "minecraft:resin_block"
+        }
+      }
+    ],
+    "size": 64,
+    "discard_chance_on_air_exposure": 0.0
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 800
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+          "above_bottom": 5
+        },
+        "max_inclusive": {
+          "below_top": 5
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

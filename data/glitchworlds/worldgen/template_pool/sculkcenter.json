@@ -2,10 +2,37 @@
   "fallback": "minecraft:empty",
   "elements": [
     {
-      "weight": 1,
+      "weight": 4,
       "element": {
         "element_type": "minecraft:single_pool_element",
-        "location": "glitchworlds:sculkthings/sculkhead",
+        "location": "glitchworlds:sculkthings/sculkhead/sculkhead",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "glitchworlds:sculkthings/sculkhead/sculkhead_overgrown",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "glitchworlds:sculkthings/sculkhead/sculkhead_breached",
+        "processors": "minecraft:empty",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "glitchworlds:sculkthings/sculkhead/sculkhead_warded",
         "processors": "minecraft:empty",
         "projection": "rigid"
       }

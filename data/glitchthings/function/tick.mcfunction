@@ -26,7 +26,13 @@ execute as @a[advancements={glitchthings:glitch_races_ender=true}] run function 
 execute as @a[advancements={glitchthings:glitch_races_gooby=true}] run function glitchthings:resetracetriggers
 execute as @a[advancements={glitchthings:glitch_races_armadillo=true}] run function glitchthings:resetracetriggers
 
+##portal checks
+# count down the cooldown
+scoreboard players remove @a[scores={world_cross_cooldown=1..}] world_cross_cooldown 1
 
+# let players cross again once they step off the arrival portal
+execute as @a[tag=portal_arrived] at @s unless block ~ ~-1 ~ minecraft:sea_lantern run tag @s remove portal_arrived
+function glitchthings:portaleffects/port_effect
 
 ##take damage from water
 

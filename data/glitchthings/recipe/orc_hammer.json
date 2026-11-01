@@ -54,6 +54,9 @@
       "minecraft:custom_name": {
         "text": "Orc's Hammer",
         "color": "green"
+      },
+      "custom_model_data": {
+        "strings": ["orc_hammer"]
       }
     }
   }

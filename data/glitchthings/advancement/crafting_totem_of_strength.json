@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "crafting things": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipes": "glitchthings:totem_strength"
+      }
+    }
+  },
+  "parent": "glitchthings:crafting_race_item",
+  "display": {
+    "icon": {
+      "id": "totem_of_undying",
+      "components": {
+        "enchantment_glint_override": true
+      }
+    },
+    "title": "United Essence",
+    "description": "Craft the species essence"
+  }
+}

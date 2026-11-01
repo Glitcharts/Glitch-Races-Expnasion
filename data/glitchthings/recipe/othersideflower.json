@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "axa",
+    "xox",
+    "axa"
+  ],
+  "key": {
+    "x": [
+      "minecraft:golden_dandelion"
+    ],
+    "o": [
+      "minecraft:ender_eye"
+    ],
+    "a": [
+      "minecraft:diamond"
+    ]
+  },
+  "result": {
+  "id": "minecraft:jigsaw",
+  "components": {
+    "minecraft:item_model": "minecraft:golden_dandelion",
+    "minecraft:enchantment_glint_override": true,
+    "minecraft:custom_data": {
+      "othersidetool": true
+    },
+    "minecraft:custom_name": "Otherside Flower",
+    "minecraft:max_stack_size": 1,
+    "minecraft:consumable": {
+      "consume_seconds": 99999999,
+      "animation": "none",
+      "has_consume_particles": false
+    },
+    "rarity": "epic"
+  },
+  "count": 1
+  }
+}

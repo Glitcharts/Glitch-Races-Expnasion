@@ -9,20 +9,22 @@
   "key": {
     "x": [
       "minecraft:ender_eye",
-      "minecraft:heart_of_the_sea",
+      "minecraft:sponge",
       "minecraft:blaze_powder"
     ],
     "o": "minecraft:diamond",
     "a": [
-      "minecraft:end_crystal",
-      "minecraft:conduit",
-      "minecraft:nether_star"
+      "minecraft:iron_ingot",
+      "minecraft:prismarine",
+      "minecraft:quartz"
     ]
   },
   "result": {
     "id": "minecraft:jigsaw",
     "components": {
-      "minecraft:item_model": "minecraft:dragon_breath",
+      "minecraft:custom_model_data": {
+        "strings": ["species_essence"]
+      },
       "minecraft:consumable": {
         "consume_seconds": 2,
         "sound": "entity.axolotl.idle_water",
@@ -54,6 +56,9 @@
       },
       "minecraft:custom_data": {
         "changerace": true
+      },
+      "minecraft:use_cooldown": {
+        "seconds": 5
       }
     }
   }

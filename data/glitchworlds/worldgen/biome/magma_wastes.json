@@ -1,0 +1,153 @@
+{
+  "attributes": {
+    "minecraft:audio/background_music": {
+      "default": {
+        "sound": "minecraft:music.nether.basalt_deltas",
+        "min_delay": 12000,
+        "max_delay": 24000,
+        "replace_current_music": false
+      }
+    },
+    "minecraft:audio/ambient_sounds": {
+      "loop": "minecraft:ambient.basalt_deltas.loop",
+      "mood": {
+        "sound": "minecraft:ambient.basalt_deltas.mood",
+        "tick_delay": 6000,
+        "block_search_extent": 8,
+        "offset": 2
+      },
+      "additions": {
+        "sound": "minecraft:ambient.basalt_deltas.additions",
+        "tick_chance": 0.0111
+      }
+    },
+    "minecraft:visual/fog_color": 5904901,
+    "minecraft:visual/sky_color": 5904901,
+    "minecraft:visual/water_fog_color": 329011,
+    "minecraft:visual/ambient_particles": [
+      {
+        "particle": {
+          "type": "minecraft:flame"
+        },
+        "probability": 0.008
+      }
+    ],
+    "gameplay/natural_mob_spawns": {
+      "spawns_by_category": {
+        "water_ambient": [],
+        "ambient": [],
+        "misc": [],
+        "water_creature": [],
+        "creature": [
+          {
+            "type": "minecraft:strider",
+            "weight": 100,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 2,
+              "max_inclusive": 4
+            }
+          }
+        ],
+        "monster": [
+          {
+            "type": "minecraft:blaze",
+            "weight": 60,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          },
+          {
+            "type": "minecraft:magma_cube",
+            "weight": 40,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          },
+          {
+            "type": "minecraft:piglin",
+            "weight": 10,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 2
+            }
+          },
+          {
+            "type": "minecraft:ghast",
+            "weight": 5,
+            "count": {
+              "type": "uniform",
+              "min_inclusive": 1,
+              "max_inclusive": 1
+            }
+          }
+        ]
+      },
+      "spawn_costs": {
+        "minecraft:blaze": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        },
+        "minecraft:magma_cube": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        },
+        "minecraft:piglin": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        },
+        "minecraft:ghast": {
+          "energy_budget": 0.7,
+          "charge": 0.15
+        }
+      }
+    }
+  },
+  "temperature": 2,
+  "downfall": 0,
+  "effects": {
+    "water_color": 4159204
+  },
+  "has_precipitation": false,
+  "carvers": [
+    "minecraft:nether_cave"
+  ],
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [
+      "minecraft:spring_open",
+      "minecraft:patch_fire",
+      "minecraft:patch_soul_fire",
+      "minecraft:glowstone_extra",
+      "minecraft:glowstone",
+      "minecraft:ore_magma",
+      "minecraft:spring_closed",
+      "minecraft:ore_gravel_nether",
+      "minecraft:ore_blackstone",
+      "minecraft:ore_gold_nether",
+      "minecraft:ore_ancient_debris_large",
+      "minecraft:ore_debris_small",
+      "glitchworlds:magma_fill",
+      "glitchworlds:blackstone_patches",
+      "glitchworlds:shroomlight_patches",
+      "glitchworlds:magma_patches"
+    ],
+    [],
+    [
+      "minecraft:spring_lava",
+      "glitchworlds:wart_shroom_rock",
+      "glitchworlds:blackstone_basalt_rock"
+    ]
+  ]
+}

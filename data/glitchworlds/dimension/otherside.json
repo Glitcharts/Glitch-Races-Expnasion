@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:overworld",
+  "type": "glitchworlds:othersidetype",
   "generator": {
     "type": "minecraft:noise",
     "settings": "glitchworlds:otherside",

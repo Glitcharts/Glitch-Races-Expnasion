@@ -6,7 +6,6 @@
   "result": {
     "id": "minecraft:netherite_pickaxe",
     "components": {
-      "minecraft:item_model": "minecraft:trident",
       "minecraft:lore": [
         "Moles love to dig, and now they created tools to already expand on their amazing mining speed"
       ],
@@ -15,7 +14,11 @@
         "color": "light_purple"
       },
       "minecraft:enchantments": {
-        "minecraft:sharpness": 1
+        "minecraft:sharpness": 1,
+        "glitchthings:wallbreaker": 1
+      },
+      "custom_model_data":{
+        "strings": ["mole_digger"]
       },
       "minecraft:attribute_modifiers": [
         {

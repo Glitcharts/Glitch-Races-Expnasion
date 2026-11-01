@@ -1,0 +1,1 @@
+give @s elytra[custom_name=[{"text":"Netherite Wings","italic":false}],attribute_modifiers=[{type:armor,amount:5,slot:chest,operation:add_value,id:"1792593164179"},{type:armor_toughness,amount:2,slot:chest,operation:add_value,id:"1792593164180"},{type:knockback_resistance,amount:0.1,operation:add_value,id:"1792593164181"}]]

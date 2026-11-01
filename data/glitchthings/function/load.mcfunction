@@ -24,6 +24,9 @@ scoreboard objectives add sneak minecraft.custom:minecraft.sneak_time "sneak tim
 scoreboard objectives add sleep_time minecraft.custom:sleep_in_bed "sleep time"
 scoreboard objectives add awake_time minecraft.custom:time_since_rest "awake time"
 
+scoreboard objectives add world_cross_cooldown dummy
+scoreboard objectives add portal_dest dummy
+
 scoreboard objectives add bloom_state dummy "Bloom State"
 
 scoreboard objectives add creeper_flash dummy "Creeper Flash"
@@ -64,5 +67,6 @@ scoreboard objectives add gooby_sneaking_old dummy "previous gooby sneaking"
 scoreboard objectives add armadillo_scute_cooldown dummy "Armadillo Scute Cooldown"
 
 scoreboard objectives add selected_race dummy "Selected Race"
+
 
 tellraw @a ["",{text:"-----------------------------------------------",color:"red"},{text:"\n"},{text:"Glitch Races Datapack loaded successfully",color:"dark_purple"},{text:"\n"},{text:"If you like my datapack consider checking out my other"},{text:" work",color:"green",click_event:{action:"open_url",url:"https://modrinth.com/user/GlitchingArts"},hover_event:{action:"show_text",value:[{text:"My Modrinth page"}]}},{text:"\n"},{text:"-----------------------------------------------",color:"red"}]
