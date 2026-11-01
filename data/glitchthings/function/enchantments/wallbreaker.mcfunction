@@ -1,2 +1,4 @@
-fill ~1 ~2 ~1 ~-1 ~-1 ~-1 air destroy
-execute if items entity @s weapon.mainhand *[minecraft:custom_model_data={strings:["mole_digger"]}] run item modify entity @s weapon.mainhand glitchthings:damage_mole_digger
+tag @a remove wb_owner
+tag @s add wb_owner
+execute at @s as @e[type=marker,tag=wb_target,distance=..12] at @s unless block ~ ~ ~ #minecraft:air run kill @s
+execute at @s unless entity @e[type=marker,tag=wb_target,distance=..12] anchored eyes rotated as @s positioned ^ ^ ^ run function glitchthings:enchantments/wall/start

@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:adventure/sleep_in_bed",
+  "criteria": {
+    "mined": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "components": {
+              "minecraft:enchantments": {"glitchthings:wallbreaker": 1}
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "glitchthings:enchantments/wallbreaker"
+  },
+  "sends_telemetry_event": true
+}

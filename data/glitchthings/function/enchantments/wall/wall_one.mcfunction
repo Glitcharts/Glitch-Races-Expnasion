@@ -1,0 +1,1 @@
+execute unless block ~ ~ ~ #minecraft:air unless block ~ ~ ~ #minecraft:wither_immune run function glitchthings:enchantments/wall/wall_break

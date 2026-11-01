@@ -221,3 +221,8 @@ execute as @a[advancements={glitchthings:glitch_races_warden=true}] \
 
 execute as @a[advancements={glitchthings:glitch_races_armadillo=true}] \
  run function glitchthings:races/ablities/armadillo/armadilloblock
+
+
+scoreboard players add @e[type=marker,tag=wb_target] wb_age 1
+execute as @e[type=marker,tag=wb_target] at @s if block ~ ~ ~ #minecraft:air run function glitchthings:enchantments/wall/wb_finish
+kill @e[type=marker,tag=wb_target,scores={wb_age=100..}]
